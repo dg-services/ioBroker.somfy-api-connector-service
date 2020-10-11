@@ -1,0 +1,40 @@
+{
+	"cli": true,
+	"adapterName": "somfy-api-connector-service",
+	"title": "Somfy Api Connector Service",
+	"description": "somify connector",
+	"keywords": [
+		"Somfy",
+		"Connector",
+		"API",
+		"iobroker",
+		"service"
+	],
+	"expert": "no",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "iot-systems",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"language": "JavaScript",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"authorName": "Dominik Gerstner",
+	"authorGithub": "dg-services",
+	"authorEmail": "coding@dg-services.de",
+	"gitRemoteProtocol": "HTTPS",
+	"gitCommit": "no",
+	"license": "MIT License",
+	"ci": "gh-actions",
+	"dependabot": "no",
+	"creatorVersion": "1.29.1"
+}

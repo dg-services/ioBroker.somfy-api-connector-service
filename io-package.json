@@ -1,0 +1,80 @@
+{
+	"common": {
+		"name": "somfy-api-connector-service",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Somfy Api Connector Service",
+		"titleLang": {
+			"en": "Somfy Api Connector Service",
+			"de": "Somfy Api Connector Service",
+			"ru": "Служба коннектора Somfy Api",
+			"pt": "Somfy Api Connector Service",
+			"nl": "Somfy Api Connector-service",
+			"fr": "Service Somfy Api Connector",
+			"it": "Somfy Api Connector Service",
+			"es": "Servicio de conector de Somfy Api",
+			"pl": "Usługa Somfy Api Connector",
+			"zh-cn": "尚飞Api连接器服务"
+		},
+		"desc": {
+			"en": "somify connector",
+			"de": "Stecker verbinden",
+			"ru": "соединитель somify",
+			"pt": "conector somify",
+			"nl": "somify connector",
+			"fr": "connecteur somify",
+			"it": "connettore somify",
+			"es": "conector somify",
+			"pl": "złącze somify",
+			"zh-cn": "接插件"
+		},
+		"authors": [
+			"Dominik Gerstner <coding@dg-services.de>"
+		],
+		"keywords": [
+			"Somfy",
+			"Connector",
+			"API",
+			"iobroker",
+			"service"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "somfy-api-connector-service.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/dg-services/ioBroker.somfy-api-connector-service/master/admin/somfy-api-connector-service.png",
+		"readme": "https://github.com/dg-services/ioBroker.somfy-api-connector-service/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "iot-systems",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
